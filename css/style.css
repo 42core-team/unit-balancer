@@ -14,3 +14,34 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
 }
+
+.unit-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.unit {
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    background-image: url("images/ground_cracked.png");
+    background-blend-mode: 1;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: auto;
+    background-clip: border-box;
+    background-origin: padding-box;
+}
+.unit p {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+img {
+    cursor: pointer;
+    width: 100px;
+    height: auto;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+}
