@@ -1,27 +1,38 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="./favicon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		
-		<link rel="modulepreload" href="./_app/immutable/entry/start.BwL49lBV.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/B2Uf6Rhy.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/r3sb4fzG.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/Bo0XT3TE.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.0nIp8J3u.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/P42EXlCY.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/Doc5R4-m.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.g-GnG0Bm.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.3XDMveZ8.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/DmXp00f1.js">
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents"><!--[--><!--[--><!----><!----><h1>Welcome to SvelteKit</h1> <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p><!----><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" href="./core-logo.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>CORE: Unit Balancer</title>
+        <meta
+            name="description"
+            content="A tool for balancing the units of the CORE game"
+        />
+        <meta
+            name="keywords"
+            content="A tool for balancing the units of the CORE game"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+        
+		<link href="./_app/immutable/assets/2.B3xz0T6z.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.Cj6if8-Z.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DFXknRBE.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DKwCT-2V.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/XA67CygV.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.BOCOiN_C.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/BPL95ivt.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DXQQPq_x.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.BhOC1yYQ.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.Cmbb6xt-.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DsZVBq84.js">
+    </head>
+    <body data-sveltekit-preload-data="hover">
+        <div style="display: contents"><!--[--><!--[--><!----><!----><img src="core-logo.png" alt="Logo" class="svelte-og8ads"> <h1>Unit Balancer</h1> <div class="unit-list svelte-og8ads"><!--[--><div class="unit svelte-og8ads"><img src="images/skeleton_basic_idle__0.png" alt="Warrior" class="svelte-og8ads"> <h3>Warrior</h3> <p class="svelte-og8ads">Cost: <input type="range" min="0" max="500" value="100"> 100</p> <p class="svelte-og8ads">Health: <input type="range" min="0" max="500" value="200"> 200</p> <p class="svelte-og8ads">Damage: <input type="range" min="0" max="200" value="50"> 50</p></div><div class="unit svelte-og8ads"><img src="images/skeleton_basic_idle__0.png" alt="Miner" class="svelte-og8ads"> <h3>Miner</h3> <p class="svelte-og8ads">Cost: <input type="range" min="0" max="500" value="80"> 80</p> <p class="svelte-og8ads">Health: <input type="range" min="0" max="500" value="150"> 150</p> <p class="svelte-og8ads">Damage: <input type="range" min="0" max="200" value="70"> 70</p></div><div class="unit svelte-og8ads"><img src="images/skeleton_archer_idle__0.png" alt="Archer" class="svelte-og8ads"> <h3>Archer</h3> <p class="svelte-og8ads">Cost: <input type="range" min="0" max="500" value="80"> 80</p> <p class="svelte-og8ads">Health: <input type="range" min="0" max="500" value="150"> 150</p> <p class="svelte-og8ads">Damage: <input type="range" min="0" max="200" value="70"> 70</p></div><div class="unit svelte-og8ads"><img src="images/skeleton_healer_idle__0.png" alt="Healer" class="svelte-og8ads"> <h3>Healer</h3> <p class="svelte-og8ads">Cost: <input type="range" min="0" max="500" value="80"> 80</p> <p class="svelte-og8ads">Health: <input type="range" min="0" max="500" value="150"> 150</p> <p class="svelte-og8ads">Damage: <input type="range" min="0" max="200" value="70"> 70</p></div><div class="unit svelte-og8ads"><img src="images/skeleton_tank_idle__0.png" alt="Tank" class="svelte-og8ads"> <h3>Tank</h3> <p class="svelte-og8ads">Cost: <input type="range" min="0" max="500" value="80"> 80</p> <p class="svelte-og8ads">Health: <input type="range" min="0" max="500" value="150"> 150</p> <p class="svelte-og8ads">Damage: <input type="range" min="0" max="200" value="70"> 70</p></div><!--]--></div><!----><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
 			
 			<script>
 				{
-					__sveltekit_1ofjsuy = {
+					__sveltekit_3s0g55 = {
 						base: new URL(".", location).pathname.slice(0, -1),
 						assets: "/unit-balancer"
 					};
@@ -29,8 +40,8 @@
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.BwL49lBV.js"),
-						import("./_app/immutable/entry/app.0nIp8J3u.js")
+						import("./_app/immutable/entry/start.Cj6if8-Z.js"),
+						import("./_app/immutable/entry/app.BOCOiN_C.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],
@@ -42,5 +53,15 @@
 				}
 			</script>
 		</div>
-	</body>
+        <h4>
+            NOTE: Progress is not yet saved! (actually this page does nothing at
+            the moment)
+        </h4>
+    </body>
+    <footer>
+        <p><a href="https://coregame.de" target="_blank">Website</a></p>
+        <p>
+            <a href="https://github.com/42core-team" target="_blank">GitHub</a>
+        </p>
+    </footer>
 </html>
