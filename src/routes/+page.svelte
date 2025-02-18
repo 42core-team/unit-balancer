@@ -43,7 +43,7 @@
     ];
 </script>
 
-<img src="core-logo.png" alt="Logo" />
+<img id="logo" src="core-logo.png" alt="Logo" />
 <h1>Unit Balancer</h1>
 
 <div class="unit-list">
@@ -105,6 +105,11 @@
     }
     img {
         cursor: pointer;
+        width: 100px;
+        height: auto;
+    }
+
+    #logo {
         width: 100px;
         height: auto;
     }
